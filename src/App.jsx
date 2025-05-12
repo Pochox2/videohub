@@ -75,7 +75,7 @@ function App() {
 
   return (
     <div className="all">
-      <img src='../public/logooo.png' className='img_logo'></img>
+      <img src='./logooo.png' className='img_logo'></img>
       
       <CancionForm canciones={canciones} agregarC={agregarCancion} />
       <BuscadorCancion value={terminos} onChange={setTerminos}/>
